@@ -1,0 +1,145 @@
+body {
+    background-color: #E76F51;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+ }
+ table, th, td {
+    text-align: start;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.5em;
+}
+.checkt {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.hide {
+
+    display: none;
+}
+ #smallplus, #smallminus ,#medplus, #medminus , #largeplus, #largeminus , #plus {
+    height:25px;
+    width:25px;
+    border-radius:30%;
+    background-color: pink;
+}
+
+#buymedium , #buysmall , #buylarge , #checkt {
+    height:30px;
+    width:100px;
+    border-radius:10%;
+    background-color: pink;
+}
+footer {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+#minus:hover{
+    background-color:cyan;    
+    border:none;
+}
+#buy:hover{
+    background-color:cyan;    
+    border:none;
+}
+#checkt:hover{
+    background-color:cyan;    
+    border:none;
+}
+#smallplus:hover{
+    background-color:cyan;
+    border:none;
+}
+#smallplus:hover{
+    background-color:cyan;
+    border:none;
+}
+#medplus:hover{
+    background-color:cyan;
+    border:none;
+}
+#largeplus:hover{
+    background-color:cyan;
+    border:none;
+}
+#smallminus:hover{
+    background-color:cyan;
+    border:none;
+}
+#medminus:hover{
+    background-color:cyan;
+    border:none;
+}
+#largeminus:hover{
+    background-color:cyan;
+    border:none;
+}
+#buysmall:hover{
+    background-color:cyan;
+    border:none;
+}
+#buymedium:hover{
+    background-color:cyan;
+    border:none;
+}
+#buylarge:hover{
+    background-color:cyan;
+    border:none;
+}
+ .heading {
+     text-align: center;
+     font-size: 2em;
+ }
+ .cart {
+    border: 1px solid #2A9D8F;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    background-color:#F4A261 ;
+    justify-content: centers;
+ }
+ .pizza{
+     border: 1px solid #2A9D8F;
+     padding: 1em;
+     margin: 1em;
+     border-radius: 1em;
+ }
+ 
+ .small_pizza {
+     background-color: #264653;
+     flex: 0.5
+ }
+ .medium_pizza {
+     background-color: #E9C46A;
+ flex : 0.5
+ }
+ 
+ .large_pizza {
+     background-color: #2A9D8F;
+     flex: 0.5
+ }
+ 
+ .contact_us {
+     background-color: #F4A261;
+     text-align: center;
+ }
+ 
+ @media (min-width:760px) {
+ 
+     body {
+         background-color:darkgray;
+     }
+ }
+ 
+ 
+ @media (min-width:960px) {
+ 
+       body {
+           background-color: #E76F51;
+       }
+ 
+       .pizzas {
+         display: flex;
+ }
+ }

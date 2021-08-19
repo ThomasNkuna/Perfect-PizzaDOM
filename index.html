@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Perfect Pizza</h1>
+    </div>
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>Add</th>
+                <th></th>
+                <th>Qty</th>
+                <th></th>
+                <th>Minus</th>
+                <th></th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Small</td>
+                <td><button id="smallplus">+</button></td>
+                <td></td>
+                <td><span id="smallQty"></span></td>
+                <td></td>
+                <td><button id="smallminus">-</button></td>
+                <td></td>
+                <td><span id="tot_small"></span></td>
+            </tr>
+            <tr>
+                <td>Medium</td>
+                <td><button id="medplus">+</button></td>
+                <td></td>
+                <td><span id="medQty"></span></td>
+                <td></td>
+                <td><button id="medminus">-</button></td>
+                <td></td>
+                <td><span id="tot_med"></span></td>
+
+            </tr>
+
+            <tr>
+                <td>Large</td>
+                <td><button id="largeplus">+</button></td>
+                <td></td>
+                <td><span id="largeQty"></span></td>
+                <td></td>
+                <td><button id="largeminus">-</button></td>
+                <td></td>
+                <td><span id="tot_large"></span></td>
+            </tr>
+            <tr>
+                <td>Total cost</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span id="tot_cost"></span></td>
+            </tr>
+        </table>
+        <div class="checkt hide">
+            <button id="checkt">Check out</button>
+        </div>
+        <div class ="popup hide">
+            ZAR = <input type="text" class="payments" id="payment">
+         <button id="purchase">Pay</button>
+        </div>
+        <div id="messagehere"></div>
+    </div>
+
+
+    <div class="pizzas">
+        <div class="pizza small_pizza">
+            <div>
+                <img src="medium.png" width="100">
+            </div>
+            <h2>Small Pizza</h2>
+
+            <h3>R49.00</h3>
+            <div>
+                small pizza with 3 toppings.
+                1 meat topping.
+                3 or less other toppings.
+            </div>
+            <footer class="smallbuy">
+                <button id="buysmall">Buy</button>
+            </footer>
+        </div>
+
+        <div class="pizza medium_pizza">
+            <div>
+                <img src="medium.png" width="125">
+            </div>
+            <h2>Medium Pizza</h2>
+            <h3>R89.00</h3>
+            <div>
+                medium margeritha pizza with 3 toppings max. 2 or less meat topping. 3 or less other toppings.
+            </div>
+            <footer class="medbuy">
+                <button id="buymedium">Buy</button>
+            </footer>
+        </div>
+
+        <div class="pizza large_pizza">
+            <div>
+                <img src="medium.png" width="150">
+            </div>
+            <h2>Large Pizza</h2>
+
+            <h3>R129.00</h3>
+            <div>
+                large margeritha pizza with 3 toppings max. 3 meat toppings max. 3 or less other toppings.
+            </div>
+            <footer class="largebuy">
+                <button id="buylarge">Buy</button>
+            </footer>
+        </div>
+
+
+
+    </div>
+    <div class="pizza contact_us">
+        <h2>Contact details</h2>
+        Contact us at: 011 559 2358 info@perfectpizza.co.za
+    </div>
+    <script src="pizza-cart.js"></script>
+</body>
+
+</html>
